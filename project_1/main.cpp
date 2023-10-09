@@ -1,7 +1,18 @@
 #include <iostream>
-using namespace std;
+// using namespace std;
+
+// однострочный комментарий
+
+/*
+	многострочный
+	комментарий
+*/
 
 int main()
 {
-	cout << "Goodbye World..." << endl;
+	std::cout << "Ленин" << std::endl;
+
+	setlocale(LC_ALL, "Rus");
+
+	std::cout << "Ленин" << std::endl;
 }
