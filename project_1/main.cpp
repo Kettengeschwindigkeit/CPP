@@ -1,9 +1,19 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-	cout << "I gotta flag and a picture of Robert E. Lee\nHangin' in the den for everyone to see\nI got a 68 long bed \"GMC\"\nSittin' out back underneath a tree\n";
-	cout << "Every-day I'm tired cause I work really hard\nAt 5 o'clock I punch my time card\nSo when I get home I don't pay no re-gard\nTo the junk that's pilin' up in my back-yard\n\n";
-	cout << "\tWell you can wash The \"Dukes of Hazzard\" sheets on my bed\n\tYou can wash the dust off of my stuffed deer head\n\tYou can wash my mud tires 'til there's no tread\n\tBut you can't wash the red outta my redneck\n";
-}
+/*
+	Тип		Размер в байтах		Пояснение											Диапазон значений
+
+	float	4					описывает вещественные числа одинарной точности
+	double	8					описывает вещественные числа двойной точности
+
+	int		4					описывает целые числа								от -2147483648 до 2147483647
+	short	2					описывает короткие целые числа						от -32768 до 32767
+	long	4					описывает длинные целые числа						от -2147483648 до 2147483647
+
+	char	1					описывает символы
+
+	bool	1					описывает логические значения
+*/
+
+int main() {}
