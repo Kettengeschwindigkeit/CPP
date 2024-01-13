@@ -5,8 +5,36 @@ void main()
 {
     setlocale(LC_ALL, "Rus");
 
+    // Урок #10. Сокращенные арифметические формы +=, -= и т.д.
+
+    /*
+    
+    int a = 0;
+
+    cout << a << endl;
+
+    a = a + 20;
+    cout << a << endl;
+
+    a += 20;
+    cout << a << endl;
+
+    a -= 10;
+    cout << a << endl;
+
+    a *= 2;
+    cout << a << endl;
+
+    a /= 5;
+    cout << a << endl;
+    
+    */
+
+
     // Урок #9. Инкремент и декремент. Постфиксный и префиксный.
 
+    /*
+    
     int a = 1, b = 1, c = 1, d, e = 1, f;
 
     cout << a << endl;
@@ -30,6 +58,9 @@ void main()
     f = ++e * e++;
     cout << "f = " << f << endl;
     cout << "e = " << e << endl;
+
+    */
+
 
     // Homework #01. Ввести три числа и вывести значение их суммы, произведения и среднего арифметического.
 
@@ -153,6 +184,7 @@ void main()
 
     */
 
+
     // Урок #4. Типы данных.
 
     /*
@@ -166,5 +198,33 @@ void main()
 	char	1					описывает символы
 	bool	1					описывает логические значения
 
+    */
+
+
+    // Homework #00. Вывести отформатированные строки песни или стихотворения (с переносом на новую строку, с пустой строкой между четверостишиями и т.д.)
+
+    /*
+    
+    cout << "I gotta flag and a picture of Robert E. Lee\nHangin' in the den for everyone to see\nI got a 68 long bed \"GMC\"\nSittin' out back underneath a tree\n";
+	cout << "Every-day I'm tired cause I work really hard\nAt 5 o'clock I punch my time card\nSo when I get home I don't pay no re-gard\nTo the junk that's pilin' up in my back-yard\n\n";
+	cout << "\tWell you can wash The \"Dukes of Hazzard\" sheets on my bed\n\tYou can wash the dust off of my stuffed deer head\n\tYou can wash my mud tires 'til there's no tread\n\tBut you can't wash the red outta my redneck\n";
+    
+    */
+
+    // Урок #3. Escape-последовательности. Как использовать.
+
+    /*
+    
+    \n - перейти на начало новой строки
+	\t - перейти к следующей позиции табуляции
+	\b - удаление последнего выведенного символа
+	\\ - вывести обратную косую черту
+	\" - вывести двойную кавычку
+	\' - вывести одинарную кавычку
+
+    cout << "Ленин\n";
+    cout << "\t\tЛенин\n\n\t\n";
+    cout << "\"Ленин\"\\\n";
+    
     */
 }
