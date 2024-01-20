@@ -1,12 +1,31 @@
 #include <iostream>
 using namespace std;
 
+int Sum(int a, int b)
+{
+    int c = a + b;
+    return c;
+}
+
 void main()
 {
     setlocale(LC_ALL, "Rus");
 
+    // Урок #23. Найти ошибку в коде. Отладка. Как пользоваться отладчиком.
+
+    int a = 5;
+    int b = 6;
+    int c;
+
+    // c = a + b;
+    c = Sum(a, b);
+
+    cout << c << endl;
+
     // Урок #22. Оператор перехода goto. Когда код становится непонятен даже создателю.
 
+    /*
+    
     cout << "Один" << endl;
 
     goto link;
@@ -20,6 +39,9 @@ void main()
     cout << "Четыре" << endl;
 
     cout << "Пять" << endl;
+    
+    */
+
 
     // Урок #20. Как сделать exe файл в Visual studio. Как скомпилировать cpp в exe.
     // Урок #21. Закрывается консоль. Что делать? Задержка экрана консоли.
