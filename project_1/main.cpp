@@ -1,26 +1,36 @@
 #include <iostream>
 using namespace std;
 
-int Sum(int a, int b)
-{
-    int c = a + b;
-    return c;
-}
-
 void main()
 {
     setlocale(LC_ALL, "Rus");
 
+    // Урок #24. Что такое вложенный цикл. Вложенная конструкция.
+
+    for (int i = 1; i < 5; i++)
+    {
+        cout << "сработал 1-й цикл for итерация № " << i << endl;
+
+        for (int j = 1; j < 5; j++)
+        {
+            cout << "\tсработал 2-й цикл for итерация № " << j << endl;
+        }
+    }
+
     // Урок #23. Найти ошибку в коде. Отладка. Как пользоваться отладчиком.
 
+    /*
+    
     int a = 5;
     int b = 6;
     int c;
 
-    // c = a + b;
-    c = Sum(a, b);
+    c = a + b;
 
     cout << c << endl;
+    
+    */
+
 
     // Урок #22. Оператор перехода goto. Когда код становится непонятен даже создателю.
 
