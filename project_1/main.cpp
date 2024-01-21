@@ -5,21 +5,49 @@ void main()
 {
     setlocale(LC_ALL, "Rus");
 
+    // Урок #28. sizeof что это. sizeof массив. Узнать количество элементов массива.
+
+    // sizeof - возвращает длину в байтах переменной или типа данных.
+
+    int a;
+
+    cout << sizeof(int) << endl;
+    cout << sizeof(double) << endl;
+    cout << sizeof(a) << endl;
+
+    int arr[]{ 5, 33, 545, 111, 326 };
+    double arr1[]{ 5, 33, 545, 111, 326 };
+
+    cout << sizeof(arr) / sizeof(int) << endl;
+
+    int b = sizeof(arr);
+    int c = sizeof(int);
+
+    for (int i = 0; i < sizeof(arr1) / sizeof(arr1[0]); i++)
+    {
+        cout << arr1[i] << endl;
+    }
+
     // Урок #27. Вывод массива. Массивы и циклы. Цикл с массивом.
 
-    const int size = 5;
+    /*
     
-    int arr[size];
+    const int SIZE = 5;
+    
+    int arr[SIZE];
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < SIZE; i++)
     {
         arr[i] = i + 1;
     }
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < SIZE; i++)
     {
         cout << arr[i] << endl;
     }
+    
+    */
+
 
     // Урок #26. Инициализация массива. Способы. Инициализация массива нулями.
 
