@@ -1,14 +1,45 @@
 #include <iostream>
+#include <ctime>
 using namespace std;
 
 void main()
 {
     setlocale(LC_ALL, "Rus");
 
+    srand(time(NULL));
+
+    // Урок #29. rand. srand. rand задать диапазон. srand time null. Генератор случайных чисел. randomize.
+
+    int a = rand() % 10 + 5;
+
+    cout << a << endl;
+
+    a = rand() % 10;
+
+    cout << a << endl;
+
+    cout << endl;
+
+    int const SIZE = 10;
+
+    int arr[SIZE];
+
+    for (int i = 0; i < SIZE; i++)
+    {
+        arr[i] = rand() % 100;
+    }
+
+    for (int i = 0; i < SIZE; i++)
+    {
+        cout << arr[i] << endl;
+    }
+
     // Урок #28. sizeof что это. sizeof массив. Узнать количество элементов массива.
 
     // sizeof - возвращает длину в байтах переменной или типа данных.
 
+    /*
+    
     int a;
 
     cout << sizeof(int) << endl;
@@ -23,10 +54,20 @@ void main()
     int b = sizeof(arr);
     int c = sizeof(int);
 
+    for (int i = 0; i < sizeof(arr) / sizeof(arr[0]); i++)
+    {
+        cout << arr[i] << endl;
+    }
+
+    cout << endl;
+
     for (int i = 0; i < sizeof(arr1) / sizeof(arr1[0]); i++)
     {
         cout << arr1[i] << endl;
     }
+    
+    */
+
 
     // Урок #27. Вывод массива. Массивы и циклы. Цикл с массивом.
 
